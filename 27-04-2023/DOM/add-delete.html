@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Add & Delete elements using Js </title>
+</head>
+<body>
+  
+  <div id="maindiv">
+    <h1> This is the first element </h1>
+    <h1 id> This is the second element </h1>
+  </div>
+
+  <hr/>
+  
+  <div id="maindiv2">
+    <h1> second div first h1 </h1>
+    <h1 id = "secondh1"> This is the second element second div </h1>
+  </div>
+
+</body>
+<script>
+
+  //creating a new element with JavaScript
+  let maindiv = document.getElementById('maindiv');
+  let newh1 = document.createElement('h1'); //creating new element
+  let newh1text = document.createTextNode('this h1 created from JavScript');  //add text to new created element
+  newh1.appendChild(newh1text); //append text to new created element h1
+  maindiv.appendChild(newh1); //adding new created h1 element to maindiv
+  
+  
+
+  //deleting an element using JavaScript
+  let maindiv2 = document.getElementById('maindiv2');
+  let secondh1 = document.getElementById('secondh1');
+
+  maindiv2.removeChild(secondh1);
+
+</script>
+</html>

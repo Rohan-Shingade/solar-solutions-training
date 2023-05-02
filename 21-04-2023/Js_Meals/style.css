@@ -1,0 +1,46 @@
+img {
+  border-radius: 5px !important;
+}
+
+.col-md-3 {
+  margin: 30px !important;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#navbar {
+  background: rgb(45, 45, 50);
+}
+
+li {
+  color: white;
+  list-style: none;
+  display: inline;
+  font-size: 25px;
+  margin-left: 30px !important;
+}
+
+li:hover {
+  text-decoration: underline;
+  color:white;
+}
+
+#navElements {
+  text-align: center;
+  padding: 10px;
+}
+
+#title {
+  font-size: 30px;
+  margin-top: 15px !important;
+}
+
+#footer {
+  background-color: rgb(45, 45, 50);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

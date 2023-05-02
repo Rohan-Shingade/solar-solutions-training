@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> JavaScript Animations</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- typed js cdn link --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- AOS (Animate on Scroll) Link for images -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- AOS Js link -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <h1 id="mytext"> </h1>
+        <p id="para1">
+          scroll to see the animations
+        </p>
+        <p id="para2">
+          <i class="fa-solid fa-angle-down"></i>
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        
+        <div data-aos="flip-right">
+          <img src="https://images.unsplash.com/photo-1470116073782-48ae2ccd8ffd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt="" class="my-4 img-fluid">
+        </div>
+        
+        <div data-aos="fade-up">
+          <img src="https://img.freepik.com/premium-photo/cottage-against-night-sky-with-milky-way-arctic-northern-lights-aurora-borealis-snow-winter-finland-lapland_633077-1070.jpg?w=740" alt="" class="my-4 img-fluid">
+        </div>
+
+
+        <div data-aos="flip-down">
+          <img src="https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="my-4 img-fluid">
+        </div>
+
+        <div data-aos="flip-up">
+          <img src="https://images.unsplash.com/photo-1613141354943-53f2b03cc0e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" class="my-4 img-fluid">
+        </div>
+
+        <div data-aos="flip-left">
+          <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=740&t=st=1682409542~exp=1682410142~hmac=31b0efcc76c7fe487223771f9aa7591c3cc2515d63602e2e96b7312c2bcc8bda" alt="" class="my-4 img-fluid">
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+
+  <!-- bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

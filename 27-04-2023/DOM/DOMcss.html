@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #header {
+      color: crimson;
+    }
+
+    p {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="maindiv">
+    <h1 id="header"> this is header </h1>
+    <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate alias, necessitatibus expedita architecto libero voluptates debitis eos pariatur, ad at a soluta minus provident cum illo excepturi quos velit. Quaerat!</p>
+  </div>
+
+</body>
+
+<script>
+  
+  let x = document.getElementById('header');
+  let y = document.getElementById('para');
+
+  x.style.color = 'red';
+  y.style.color = 'blue';
+
+  let maindiv = document.getElementById('maindiv');
+  maindiv.style.backgroundColor = 'aqua';
+
+  // //without taking any variable
+  // document.getElementById('header').style.color='yellow';
+
+
+</script>
+</html>

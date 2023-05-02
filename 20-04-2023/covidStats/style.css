@@ -1,0 +1,14 @@
+body {
+  background: rgb(13,195,233);
+  background: linear-gradient(63deg, rgba(13,195,233,1) 36%, rgba(94,80,246,1) 85%);
+  height: 100vh;
+}
+
+h1 {
+  padding:15px;
+  margin-top: 50px !important;
+  margin-bottom: 25px !important;
+  background-color: rgb(14, 196, 246);
+  border:1px solid black;
+  border-radius: 10px;
+}

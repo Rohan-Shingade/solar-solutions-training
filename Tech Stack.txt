@@ -1,0 +1,7 @@
+Tech discussed in vidoes
+
+Bootstrap
+JQuery
+Vanilla Js
+Node Js
+DOM manipulation

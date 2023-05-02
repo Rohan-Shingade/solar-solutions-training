@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Access in Js</title>
+</head>
+<body>
+  <h1 name="heading" id="introtext" class="thisClass" > This is JavaScript Tutorial </h1>
+  <!-- <h1 class="thisClass" > This is second h1 </h1> -->
+  
+</body>
+<script>
+
+  // this wil wor for only input elements
+  // var x = document.getElementsByName("heading");
+  // x.innerHTML = "this is innerHTML for property name = heading" ;
+
+  // var x = document.getElementById("introtext");
+  // x.innerHTML = "This is innerHTML JavaScript" ; 
+  
+  // var x = document.getElementsByClassName("introtext");
+  // x.innerHTML = "this is innerHTML bcz of class" ;
+
+  //while using this array index must be mentioned
+  var x = document.getElementsByTagName("h1");
+  x[0].innerHTML = "directly used Tag Name" ;
+
+  // //js treats these class elements as array elements & works only with class
+  // x[0].innerHTML = "this first h1 element" ;
+  // x[1].innerHTML = "this second heading h1 element" ;
+  // x[1].style.color = 'red';
+
+</script>
+
+
+</html>

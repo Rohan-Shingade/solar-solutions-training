@@ -1,0 +1,22 @@
+DOM stands for Document object model
+
+when a web page is loaded, the browser creates a Document Object Model of the page.
+With the HTML DOM, JavaScript can access and change all te elements of an HTML document
+
+Acessing HTML elements in JavaScript
+
+<h1> This is header </h1>
+
+properties used for accessing HTML elements
+
+1. name
+2. id
+3. Tag
+4. class
+
+<h1 name="a" id="b" class="c"> This is a header</h1>
+
+var x = document.getElementByName("a");
+var x = document.getElementById("b");
+var x = document.getElementByClassName("c");
+var x = document.getElementByTagName("h1");

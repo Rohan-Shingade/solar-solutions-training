@@ -1,0 +1,43 @@
+@media only screen and (max-width: 800px){
+	body {
+		padding: 10px 10px 10px 10px;
+		font-family: monospace;
+	}
+}
+@media only screen and (min-width: 800px){
+	body {
+		padding: 10px 375px 10px 375px;
+		font-family: monospace;
+	}
+}
+
+h1{
+	font-size: 48px;
+	text-align: center;
+	color: #d80000;
+}
+
+h2 {
+	text-align: center;
+	color: red;
+	font-size: 35px;
+}
+
+ul {
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+p{
+  font-size: 19px;
+	text-align: justify;
+}
+
+
