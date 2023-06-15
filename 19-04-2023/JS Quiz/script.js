@@ -70,7 +70,7 @@ submitbtn.addEventListener('click', ()=>{
 
   let selectedOption;
 
-  answer.forEach(answer ()=>{
+  answer.forEach(answer, ()=>{
     if (answer.checked) {
       selectedOption = answer.id;
     }
