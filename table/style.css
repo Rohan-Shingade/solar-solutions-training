@@ -1,0 +1,10 @@
+table, th, td {
+  border: 1px solid black !important;
+  padding: 20px;
+  margin: 10px;
+  text-align: center !important;
+}
+
+.headings {
+  margin-right: 25px;
+}
